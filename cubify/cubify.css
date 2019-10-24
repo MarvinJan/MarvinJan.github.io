@@ -24,7 +24,7 @@ h2 {
   font-weight: 400;
 }
 section {
-  padding: 2em 15px;
+  padding: 2em 0;
 }
 .container {
   display: block;
@@ -72,7 +72,7 @@ footer {
 header .cubify__cube {
   transform: translateZ(-75px) rotateY(-50deg) rotateX(-22deg) rotateZ(25deg) !important;
 }
-.example-blocks__container {
+.example-block__container {
   display: flex;
   flex-flow: row wrap;
 }
@@ -85,22 +85,22 @@ header .cubify__cube {
   padding: 25px;
   color: #ffffff;
 }
-.example-block__front, .example-block-copy__front {
+.example-block__front {
   background-color: #0fdf8a;
 }
-.example-block__back, .example-block-copy__back {
+.example-block__back {
   background-color: #05a966;
 }
-.example-block__top, .example-block-copy__top {
+.example-block__top {
   background-color: #2ab83d;
 }
-.example-block__bottom, .example-block-copy__bottom {
+.example-block__bottom {
   background-color: #2e8d3b;
 }
-.example-block__left, .example-block-copy__left {
+.example-block__left {
   background-color: #6dbc3e;
 }
-.example-block__right, .example-block-copy__right {
+.example-block__right {
   background-color: #44881b;
 }
 .code-container {
@@ -110,8 +110,13 @@ header .cubify__cube {
 .code-container code {
   color: #019aff;
 }
-.code-container code .code__in-quotes{
+.code-container code .code__in-quotes {
   color: #ea8800;
+}
+.option__row {
+  background: #f2f2f2;
+  margin: 0;
+  padding: 20px 10px;
 }
 .option_name {
   font-size: 1.1em;
